@@ -166,7 +166,7 @@ def find_optimal_product_brands(hue, saturation, value, num_matches=10):
 
 
 # Load the dataset
-dataset = pd.read_csv(r"D:\Pranav_Vignesh\Personal\Anjna\shades.csv")
+dataset = pd.read_csv(r"file_path") # Add file path inside the double quotes. Do not remove the 'r' before the quotes
 
 # Prompt the user to enter the hex value
 # fetched_hex = input("Enter your skin color's hex value: ")
